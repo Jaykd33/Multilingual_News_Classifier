@@ -9,7 +9,7 @@
 
 **A production-ready multilingual NLP system that classifies Indian-language news headlines across 10 categories — no translation required.**
 
-> 🔗 **Live demo at:** [huggingface.co/spaces/YourUsername/indic-news-classifier](https://huggingface.co/spaces/Jaykumardas/Multilingual_News_Classifier)
+> 🔗 **Live demo at:** [huggingface.co/spaces/Jaykumardas/Multilingual_News_Classifier](https://huggingface.co/spaces/Jaykumardas/Multilingual_News_Classifier)
 
 ---
 
