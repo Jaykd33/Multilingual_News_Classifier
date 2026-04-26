@@ -250,11 +250,6 @@ TrainingArguments(
 
 ---
 
-### Model Comparison Chart
-
-> 📊 *Replace this placeholder with your generated `model_comparison.png` from the evaluation cell*
-
-```
            Test Accuracy (%)          F1 Macro (%)
            ┌─────────────────┐        ┌─────────────────┐
 TF-IDF+LR  ████████████ 83.84        ████████████ 77.85
