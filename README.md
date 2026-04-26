@@ -454,12 +454,18 @@ multilingual-news-classification/
     │   ├── tokenizer.json
     │   └── label_map.json       # id → label name mapping
     └── baseline/
-        ├── tfidf_vectorizer.pkl
-        └── logistic_regression.pkl
+    │    ├── tfidf_vectorizer.pkl
+    │    └── logistic_regression.pkl
+    └── lstm/
+        ├── lstm_model.keras
+        └── tokenizer.pkl
+
+
+
+    
 ```
 
-> 🔗 **Model hosted at:** `huggingface.co/YourUsername/indic-news-xlmr`  
-> 🔗 **Live demo at:** `huggingface.co/spaces/YourUsername/indic-news-classifier`
+> 🔗 **Live demo at:** [huggingface.co/spaces/YourUsername/indic-news-classifier](https://huggingface.co/spaces/Jaykumardas/Multilingual_News_Classifier)
 
 ---
 
