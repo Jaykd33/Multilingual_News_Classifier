@@ -258,12 +258,9 @@ TF-IDF+LR  ████████████ 83.84        ██████�
 BiLSTM     ███████████  79.36        ████████     67.16
 XLM-R ⭐   █████████████ 86.12       ████████████ 78.75
            └─────────────────┘        └─────────────────┘
-```
-
-![Model Comparison Chart](outputs/model_comparison.png)
 
 ---
-
+<!--
 ### Per-Class Performance (XLM-RoBERTa, Test Set)
 
 | Category | Precision | Recall | F1 | Notes |
@@ -280,15 +277,7 @@ XLM-R ⭐   █████████████ 86.12       █████�
 | neutral | ~0.64 | ~0.62 | ~0.63 | Weakest — ambiguous boundaries |
 
 > 💡 Sentiment classes (positive/negative/neutral) perform noticeably lower due to both class imbalance and the inherent subjectivity of sentiment boundaries across languages.
-
----
-
-### Confusion Matrix
-
-> 📊 *Replace this placeholder with your generated `confusion_matrix_xlm-roberta.png`*
-
-![Confusion Matrix](outputs/confusion_matrix_xlm_roberta.png)
-
+-->
 ---
 
 ## 🔍 Key Observations
@@ -361,11 +350,10 @@ id2label    = {i: name for i, name in enumerate(label_names)}
 
 **Solution — three-repo separation (industry standard pattern):**
 
-```
 GitHub (this repo)        → Source code, app.py, requirements.txt
 HuggingFace Model Hub     → model.safetensors, config.json, tokenizer files
 HuggingFace Spaces        → Gradio app (loads model from Hub at startup)
-```
+
 
 **Why this pattern:**
 - GitHub stays lightweight and fast to clone
