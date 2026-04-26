@@ -633,16 +633,8 @@ Try these in the live demo:
 ---
 
 ## 📚 References
-
-| # | Paper / Resource | Link |
-|---|---|---|
-| 1 | Conneau et al. (2020) — *Unsupervised Cross-lingual Representation Learning at Scale* (XLM-RoBERTa) | [ACL 2020](https://arxiv.org/abs/1911.02116) |
-| 2 | Devlin et al. (2019) — *BERT: Pre-training of Deep Bidirectional Transformers* | [NAACL 2019](https://arxiv.org/abs/1810.04805) |
-| 3 | Hochreiter & Schmidhuber (1997) — *Long Short-Term Memory* | [Neural Computation](https://www.bioinf.jku.at/publications/older/2604.pdf) |
-| 4 | Wolf et al. (2020) — *HuggingFace Transformers* | [EMNLP 2020](https://arxiv.org/abs/1910.03771) |
-| 5 | Kunchukuttan et al. (2020) — *AI4Bharat-IndicNLP Corpus* | [IndicNLP Workshop](https://arxiv.org/abs/2005.00085) |
-| 6 | IndicGLUE Dataset | [HuggingFace](https://huggingface.co/datasets/ai4bharat/indic_glue) |
-| 7 | Abid et al. (2019) — *Gradio: Hassle-Free Sharing and Testing of ML Models* | [arXiv](https://arxiv.org/abs/1906.02569) |
+| 1 | IndicGLUE Dataset | [HuggingFace](https://huggingface.co/datasets/ai4bharat/indic_glue) |
+| 2 | Abid et al. (2019) — *Gradio: Hassle-Free Sharing and Testing of ML Models* | [arXiv](https://arxiv.org/abs/1906.02569) |
 
 ---
 
