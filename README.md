@@ -216,6 +216,8 @@ Why freeze most layers?
   - Frozen layers = fast training (only ~3M params updated)
   - Last 2 layers + head = sufficient for task-specific adaptation
 ```
+> 🔗 **Link to the Model and its files:** [huggingface.co/Jaykumardas/Multilingual_News_Model](https://huggingface.co/Jaykumardas/Multilingual_News_Model)
+
 
 **Training Configuration:**
 
